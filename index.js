@@ -1,5 +1,5 @@
 let logUser = function(message){
-    console.log(message);
+    console.log(`user: ${username}`);
 }
 
-document.getElementById("result").innerHTML = logUser("user: ${username}")
+document.getElementById("result").innerHTML = logUser(`user: ${username}`)
